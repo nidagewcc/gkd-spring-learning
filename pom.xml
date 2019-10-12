@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>gkd-spring-handlecontext-demo</module>
+        <module>gkd-springboot-actuator-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
