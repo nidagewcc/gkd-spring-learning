@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: eureka-client
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+  instance:
+    prefer-ip-address: true
+
+
+#  spring.application.name 用于指定注册服务到Eureka Server上的应用名称。
+#  eureka.instance.prefer-ip-address 表示将自己的ip注册到Eureka Server上，如果是false的话会显示hostname而不是ip地址。
