@@ -8,6 +8,7 @@ public class App {
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("spring/dubbo-provider.xml");
         context.start();
+        System.out.println("===============provider启动完毕=================");
         System.in.read();
     }
 }
