@@ -7,6 +7,7 @@
     <modules>
         <module>gkd-springcloud-eureka-server</module>
         <module>gkd-springcloud-eureka-client</module>
+        <module>gkd-spring-admin-server</module>
     </modules>
 
     <parent>
