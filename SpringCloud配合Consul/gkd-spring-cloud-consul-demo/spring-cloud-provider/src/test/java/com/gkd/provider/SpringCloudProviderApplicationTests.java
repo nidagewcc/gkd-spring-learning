@@ -1,10 +1,10 @@
-package com.gkd.demo;
+package com.gkd.provider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GkdSpringCloudConsulDemoApplicationTests {
+class SpringCloudProviderApplicationTests {
 
     @Test
     void contextLoads() {
