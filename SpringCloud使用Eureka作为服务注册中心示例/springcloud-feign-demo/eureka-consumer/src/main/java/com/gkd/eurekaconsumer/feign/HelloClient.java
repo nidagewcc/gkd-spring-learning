@@ -1,11 +1,14 @@
-package com.gkd.springcloudconsumer;
+package com.gkd.eurekaconsumer.feign;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 
-@FeignClient(name = "provider")
-public interface HelloService {
+@FeignClient(name = "eureka-provider")
+public interface HelloClient {
 
     @GetMapping("/say")
-    String sayHello();
+    String hello();
 }
+
+
+

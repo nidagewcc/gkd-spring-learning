@@ -1,10 +1,10 @@
-package com.gkd.springcloudconsumer;
+package com.gkd.consumer.feign;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController implements HelloService {
+public class HelloController implements HelloService {
 
     @Autowired
     private HelloService helloService;

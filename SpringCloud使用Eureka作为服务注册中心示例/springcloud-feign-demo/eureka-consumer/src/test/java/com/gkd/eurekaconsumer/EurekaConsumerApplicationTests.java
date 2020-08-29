@@ -1,10 +1,10 @@
-package com.gkd.springcloudconsumer;
+package com.gkd.eurekaconsumer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringCloudConsumerApplicationTests {
+class EurekaConsumerApplicationTests {
 
     @Test
     void contextLoads() {
